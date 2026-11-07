@@ -1,0 +1,29 @@
+{
+  "source": "User export from the local editor; user reports completing r001 and r002. Text, speaker labels and timing preserved exactly.",
+  "records": [
+    {
+      "id": "r001",
+      "turns": 43,
+      "sha256": "d59589a3d1a8b8325dc6b6b788b0625b24c84efa8494865819dc069347983b4d",
+      "user_reported_complete": true,
+      "unresolved_speaker_turns": [],
+      "note": "No review checkboxes or speaker labels were changed by the agent.",
+      "speaker_ids_ready_for_strict_export": true
+    },
+    {
+      "id": "r002",
+      "turns": 48,
+      "sha256": "398233572f879770fba749ca399c7eded2a2ede729c648712f5c06d9bebc27cc",
+      "user_reported_complete": true,
+      "unresolved_speaker_turns": [
+        2,
+        3,
+        4,
+        18,
+        30
+      ],
+      "note": "No review checkboxes or speaker labels were changed by the agent.",
+      "speaker_ids_ready_for_strict_export": false
+    }
+  ]
+}
