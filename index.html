@@ -291,13 +291,13 @@ function reviewQueue(){
   const record=REVIEW.find(x=>x.audio_sha256===S.audioSha),panel=$('#machineReview');
   if(!record){panel.style.display='none';return;}
   const opened=panel.querySelector('details')?.open;
-  const names={asr_disagreement_not_a_proven_error:'Модели услышали разное',uncertain_speaker:'Проверь говорящего или наложение',write_numbers_as_spoken_words:'Запиши число словами'};
+  const names={asr_disagreement_not_a_proven_error:'Модели услышали разное',gigaam_disagreement_not_a_proven_error:'GigaAM слышит иначе',uncertain_speaker:'Проверь говорящего или наложение',write_numbers_as_spoken_words:'Запиши число словами'};
   panel.style.display='';
   panel.innerHTML=`<details ${opened?'open':''}><summary>Места для повторного прослушивания (${record.review_queue.length})</summary>
     <p class="small">Это подсказки моделей. Для эталона нужно прослушать всю запись.</p>
     ${record.speakers_in_original_draft!==record.acoustic_clusters?'<p class="warn">Оценки числа голосов расходятся: исходный черновик '+record.speakers_in_original_draft+', новая диаризация '+record.acoustic_clusters+'. Проверь всех участников.</p>':''}
     ${record.review_queue.map(x=>`<p><button data-review-ms="${x.start_ms}">${fmt(x.start_ms)} с</button> ${esc(names[x.reason]||x.reason)}
-    ${x.large_v3||x.podlodka?`<span class="small">large-v3: «${esc(x.large_v3||'∅')}» · podlodka: «${esc(x.podlodka||'∅')}»</span>`:''}</p>`).join('')}
+    ${x.large_v3||x.podlodka||x.gigaam?`<span class="small">large-v3: «${esc(x.large_v3||'∅')}»${x.podlodka!==undefined?` · podlodka: «${esc(x.podlodka||'∅')}»`:''}${x.gigaam!==undefined?` · GigaAM: «${esc(x.gigaam||'∅')}»${x.gigaam_side&&x.gigaam_side!=='neither'?` (ближе к ${x.gigaam_side==='large_v3'?'large-v3':'podlodka'})`:''}`:''}</span>`:''}</p>`).join('')}
     </details>`;
 }
 $('#machineReview').addEventListener('click',e=>{const button=e.target.closest('[data-review-ms]');if(button){S.stopAt=null;audio.currentTime=Math.max(0,(Number(button.dataset.reviewMs)-1000)/1000);}});

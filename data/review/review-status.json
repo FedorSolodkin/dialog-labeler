@@ -15,7 +15,7 @@
       "primary_model_sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1",
       "secondary_model": "Whisper podlodka turbo q4_0",
       "asr_disagreements": 27,
-      "review_items": 54,
+      "review_items": 77,
       "time_adjustments": [
         {
           "word": 161,
@@ -68,21 +68,27 @@
           "start_ms": 680,
           "end_ms": 850,
           "large_v3": "вот",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "это вот первые",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 4220,
           "end_ms": 4860,
           "large_v3": "",
-          "podlodka": "ой так"
+          "podlodka": "ой так",
+          "gigaam": "Ой,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 15150,
           "end_ms": 16580,
           "large_v3": "неплохие",
-          "podlodka": "на плохие лет"
+          "podlodka": "на плохие лет",
+          "gigaam": "уже Тм уже Квартира у",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -91,11 +97,20 @@
           "end_ms": 16910
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 20439,
+          "end_ms": 20639,
+          "large_v3": "",
+          "gigaam": "Нет"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 24760,
           "end_ms": 25150,
           "large_v3": "",
-          "podlodka": "ну вот"
+          "podlodka": "ну вот",
+          "gigaam": "есть, ну есть вот",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
@@ -104,17 +119,33 @@
           "end_ms": 26050
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 25809,
+          "end_ms": 26170,
+          "large_v3": "они",
+          "gigaam": "я работаю работаю"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 26650,
           "end_ms": 28330,
           "large_v3": "",
-          "podlodka": "да из за того что они работали как бы вот"
+          "podlodka": "да из за того что они работали как бы вот",
+          "gigaam": "да, из-за того, что они работали как бы вот,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 8,
           "start_ms": 34500,
           "end_ms": 34980
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 34740,
+          "end_ms": 35549,
+          "large_v3": "это",
+          "gigaam": "Вот, это"
         },
         {
           "reason": "uncertain_speaker",
@@ -127,28 +158,43 @@
           "start_ms": 39260,
           "end_ms": 40160,
           "large_v3": "клетчатка",
-          "podlodka": "клетчатые"
+          "podlodka": "клетчатые",
+          "gigaam": "клетчатыые. Ну",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 40970,
           "end_ms": 42490,
           "large_v3": "такие рабочие вайбы",
-          "podlodka": "такая рабочая вайба"
+          "podlodka": "такая рабочая вайба",
+          "gigaam": "Да-да, такая рабочий вайбы, да?",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 42560,
           "end_ms": 42690,
           "large_v3": "но",
-          "podlodka": "ну"
+          "podlodka": "ну",
+          "gigaam": "да? Ну,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 47640,
           "end_ms": 48020,
           "large_v3": "ну да",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "ну, о про",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 49689,
+          "end_ms": 52369,
+          "large_v3": "где ты Да, да, да.",
+          "gigaam": "квартира преображённая. Да-да-да."
         },
         {
           "reason": "uncertain_speaker",
@@ -157,17 +203,33 @@
           "end_ms": 57780
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 57390,
+          "end_ms": 58509,
+          "large_v3": "разные",
+          "gigaam": "Просто разные"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 65620,
           "end_ms": 66100,
           "large_v3": "когда",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "да?",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 15,
           "start_ms": 65620,
           "end_ms": 66720
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 66720,
+          "end_ms": 68169,
+          "large_v3": "конечно,",
+          "gigaam": "ты,"
         },
         {
           "reason": "write_numbers_as_spoken_words",
@@ -180,21 +242,41 @@
           "start_ms": 78130,
           "end_ms": 78200,
           "large_v3": "и",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "на",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 79530,
           "end_ms": 80280,
           "large_v3": "100",
-          "podlodka": "сто процентов"
+          "podlodka": "сто процентов",
+          "gigaam": "100%, да",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 86319,
+          "end_ms": 86519,
+          "large_v3": "Ну",
+          "gigaam": "Но"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 93390,
           "end_ms": 93680,
           "large_v3": "",
-          "podlodka": "у"
+          "podlodka": "у",
+          "gigaam": "есть тебя уже",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 94119,
+          "end_ms": 94719,
+          "large_v3": "влекло в эту сторону.",
+          "gigaam": "влект..."
         },
         {
           "reason": "uncertain_speaker",
@@ -203,31 +285,65 @@
           "end_ms": 97430
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 97599,
+          "end_ms": 98360,
+          "large_v3": "Он",
+          "gigaam": "видимо... Ты"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 99540,
           "end_ms": 100040,
           "large_v3": "жиган",
-          "podlodka": "жига"
+          "podlodka": "жига",
+          "gigaam": "жиган?",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 105810,
           "end_ms": 106520,
           "large_v3": "",
-          "podlodka": "я не помню"
+          "podlodka": "я не помню",
+          "gigaam": "—н с",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 110931,
+          "end_ms": 111811,
+          "large_v3": "супер драмы,",
+          "gigaam": "супердрамы,"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 113800,
           "end_ms": 114800,
           "large_v3": "что бы",
-          "podlodka": "чтобы"
+          "podlodka": "чтобы",
+          "gigaam": "вот чтобы меня",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 118829,
+          "end_ms": 119029,
+          "large_v3": "",
+          "gigaam": "Я Я И"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 20,
           "start_ms": 118940,
           "end_ms": 119000
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 120850,
+          "end_ms": 121699,
+          "large_v3": "",
+          "gigaam": "О Это Это"
         },
         {
           "reason": "uncertain_speaker",
@@ -242,10 +358,24 @@
           "end_ms": 127840
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 127580,
+          "end_ms": 129989,
+          "large_v3": "и там под",
+          "gigaam": "и И-и-и И-и-и Нуам Нуам под"
+        },
+        {
           "reason": "uncertain_speaker",
           "turn": 24,
           "start_ms": 127840,
           "end_ms": 129020
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 133829,
+          "end_ms": 134430,
+          "large_v3": "",
+          "gigaam": "То То То есть"
         },
         {
           "reason": "uncertain_speaker",
@@ -254,10 +384,24 @@
           "end_ms": 134380
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 138170,
+          "end_ms": 139209,
+          "large_v3": "",
+          "gigaam": "Сколько"
+        },
+        {
           "reason": "uncertain_speaker",
           "turn": 28,
           "start_ms": 138320,
           "end_ms": 140220
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 142070,
+          "end_ms": 145620,
+          "large_v3": "что ты делала? Ну переехала",
+          "gigaam": "А А А что ты делал? Ну,ну Он Ну,ну Он переехал Ехала Ехала В"
         },
         {
           "reason": "uncertain_speaker",
@@ -284,24 +428,49 @@
           "end_ms": 148030
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 147900,
+          "end_ms": 148359,
+          "large_v3": "ты",
+          "gigaam": "Что ты"
+        },
+        {
           "reason": "uncertain_speaker",
           "turn": 37,
           "start_ms": 151120,
           "end_ms": 151690
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 151859,
+          "end_ms": 152059,
+          "large_v3": "",
+          "gigaam": "в"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 153980,
           "end_ms": 154140,
           "large_v3": "",
-          "podlodka": "да"
+          "podlodka": "да",
+          "gigaam": "блин,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 154230,
           "end_ms": 154610,
           "large_v3": "мне",
-          "podlodka": "у меня"
+          "podlodka": "у меня",
+          "gigaam": "блин, мне такие",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 156460,
+          "end_ms": 156949,
+          "large_v3": "",
+          "gigaam": "помню Нет. Нет. Я Я"
         },
         {
           "reason": "uncertain_speaker",
@@ -314,7 +483,9 @@
           "start_ms": 158520,
           "end_ms": 159400,
           "large_v3": "так",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Так.-а,",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -327,34 +498,42 @@
           "start_ms": 161910,
           "end_ms": 162600,
           "large_v3": "вал",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Как",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 166060,
           "end_ms": 167300,
           "large_v3": "связано улица",
-          "podlodka": "связан на улице"
+          "podlodka": "связан на улице",
+          "gigaam": "что-то связано, улица.",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 172140,
           "end_ms": 173240,
           "large_v3": "да сучевский вал",
-          "podlodka": ""
-        },
-        {
-          "reason": "asr_disagreement_not_a_proven_error",
-          "start_ms": 178260,
-          "end_ms": 179280,
-          "large_v3": "пугает",
-          "podlodka": "пугающе звучит"
+          "podlodka": "",
+          "gigaam": "дорога. Сущёовский вал.",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 43,
           "start_ms": 178260,
           "end_ms": 179100
+        },
+        {
+          "reason": "asr_disagreement_not_a_proven_error",
+          "start_ms": 178260,
+          "end_ms": 179280,
+          "large_v3": "пугает",
+          "podlodka": "пугающе звучит",
+          "gigaam": "Это уже пугающе звучит Скучно.",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
@@ -373,14 +552,25 @@
           "start_ms": 181050,
           "end_ms": 182380,
           "large_v3": "извиняюсь",
-          "podlodka": "единственное"
+          "podlodka": "единственное",
+          "gigaam": "Трёшкасучовский",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 181420,
           "end_ms": 185200,
           "large_v3": "трешка сучевский вал 2009 год",
-          "podlodka": "да"
+          "podlodka": "да",
+          "gigaam": "Трёшкасучовский вал. 2009-й год,",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 185929,
+          "end_ms": 186939,
+          "large_v3": "все,",
+          "gigaam": "Раз И И всё,"
         },
         {
           "reason": "uncertain_speaker",
@@ -389,17 +579,40 @@
           "end_ms": 186370
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 191620,
+          "end_ms": 191939,
+          "large_v3": "реклам,",
+          "gigaam": "рекламы."
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 193130,
           "end_ms": 193610,
           "large_v3": "ты",
-          "podlodka": "то"
+          "podlodka": "то",
+          "gigaam": "не было, как ты помнишь.",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 196230,
+          "end_ms": 197289,
+          "large_v3": "не",
+          "gigaam": "Ну не"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 49,
           "start_ms": 196380,
           "end_ms": 196600
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 201030,
+          "end_ms": 201709,
+          "large_v3": "",
+          "gigaam": "Д Д То То есть,"
         },
         {
           "reason": "uncertain_speaker",
@@ -412,9 +625,13 @@
           "start_ms": 208740,
           "end_ms": 210200,
           "large_v3": "так тогда ответь мне",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Так, тогда ответь.",
+          "gigaam_side": "large_v3"
         }
-      ]
+      ],
+      "third_model": "GigaAM v3 CTC (sherpa-onnx, int8)",
+      "gigaam_items": 23
     },
     {
       "id": "r002",
@@ -431,9 +648,16 @@
       "primary_model_sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1",
       "secondary_model": "Whisper podlodka turbo q4_0",
       "asr_disagreements": 38,
-      "review_items": 51,
+      "review_items": 62,
       "time_adjustments": [],
       "review_queue": [
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 2139,
+          "end_ms": 3099,
+          "large_v3": "",
+          "gigaam": "Не"
+        },
         {
           "reason": "uncertain_speaker",
           "turn": 2,
@@ -441,88 +665,126 @@
           "end_ms": 6650
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 6021,
+          "end_ms": 7140,
+          "large_v3": "что",
+          "gigaam": "Пока что"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 7780,
           "end_ms": 7940,
           "large_v3": "",
-          "podlodka": "что"
+          "podlodka": "что",
+          "gigaam": "Что, как",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 12260,
           "end_ms": 14040,
           "large_v3": "дошнул мастер набор",
-          "podlodka": "даже ну мостонабор"
+          "podlodka": "даже ну мостонабор",
+          "gigaam": "это ж, ну, маслонабор",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 15400,
           "end_ms": 15590,
           "large_v3": "вот",
-          "podlodka": "мы"
+          "podlodka": "мы",
+          "gigaam": "Ну,мы так",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 15830,
           "end_ms": 16500,
           "large_v3": "было ты же",
-          "podlodka": "блядь тоже ж"
+          "podlodka": "блядь тоже ж",
+          "gigaam": "так и Тоже",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 17340,
           "end_ms": 17670,
           "large_v3": "",
-          "podlodka": "как бы"
+          "podlodka": "как бы",
+          "gigaam": "как бы человек",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 25450,
           "end_ms": 25950,
           "large_v3": "оттут",
-          "podlodka": "вот тут"
+          "podlodka": "вот тут",
+          "gigaam": "поэтому воттуйтейчас.",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 25950,
           "end_ms": 26260,
           "large_v3": "все",
-          "podlodka": "ся"
+          "podlodka": "ся",
+          "gigaam": "",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 27400,
           "end_ms": 27600,
           "large_v3": "",
-          "podlodka": "вам"
+          "podlodka": "вам",
+          "gigaam": "могу вам миниатюрки",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 28658,
+          "end_ms": 29018,
+          "large_v3": "",
+          "gigaam": "Давай."
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 29880,
           "end_ms": 29990,
           "large_v3": "не",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Не-не, не",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 31140,
           "end_ms": 31800,
           "large_v3": "",
-          "podlodka": "вам не буду"
+          "podlodka": "вам не буду",
+          "gigaam": "вам, Н буду я",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 31250,
           "end_ms": 31940,
           "large_v3": "буду",
-          "podlodka": "вам"
+          "podlodka": "вам",
+          "gigaam": "вам, Н буду я вам",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 33260,
           "end_ms": 35770,
           "large_v3": "",
-          "podlodka": "да потому там я по нахуй эти бабки"
+          "podlodka": "да потому там я по нахуй эти бабки",
+          "gigaam": "потому а Тамяхуй",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
@@ -537,39 +799,70 @@
           "end_ms": 55880
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 36279,
+          "end_ms": 36919,
+          "large_v3": "",
+          "gigaam": "У меня бабок"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 39110,
           "end_ms": 39530,
           "large_v3": "",
-          "podlodka": "блядь"
+          "podlodka": "блядь",
+          "gigaam": "проблема.Я",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 41840,
           "end_ms": 42310,
           "large_v3": "божай",
-          "podlodka": "божаю"
+          "podlodka": "божаю",
+          "gigaam": "ну, обожаю",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 45359,
+          "end_ms": 46199,
+          "large_v3": "миниатюра?",
+          "gigaam": "мидиатюра?"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 47959,
+          "end_ms": 48319,
+          "large_v3": "Я",
+          "gigaam": "Я-я"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 49450,
           "end_ms": 49620,
           "large_v3": "",
-          "podlodka": "и"
+          "podlodka": "и",
+          "gigaam": "так вот",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 52200,
           "end_ms": 52760,
           "large_v3": "12",
-          "podlodka": "двенадцать"
+          "podlodka": "двенадцать",
+          "gigaam": "извини, за 12:00",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 57860,
           "end_ms": 60700,
           "large_v3": "шо",
-          "podlodka": "что"
+          "podlodka": "что",
+          "gigaam": "Ёб А",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -582,70 +875,90 @@
           "start_ms": 61140,
           "end_ms": 62940,
           "large_v3": "себе",
-          "podlodka": "тебе"
+          "podlodka": "тебе",
+          "gigaam": "",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 62580,
           "end_ms": 64820,
           "large_v3": "о все",
-          "podlodka": "что"
+          "podlodka": "что",
+          "gigaam": "Очё",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 67870,
           "end_ms": 68060,
           "large_v3": "вот",
-          "podlodka": "и он"
+          "podlodka": "и он",
+          "gigaam": "Ну его",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 69440,
           "end_ms": 69970,
           "large_v3": "и",
-          "podlodka": "не п ь"
+          "podlodka": "не п ь",
+          "gigaam": "",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 70610,
           "end_ms": 71640,
           "large_v3": "последние файлы",
-          "podlodka": "последовая файта"
+          "podlodka": "последовая файта",
+          "gigaam": "У нас и постоянный айбер",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 72370,
           "end_ms": 72690,
           "large_v3": "вот",
-          "podlodka": "и он"
+          "podlodka": "и он",
+          "gigaam": "ну его",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 73270,
           "end_ms": 77720,
           "large_v3": "у нас файлы подготовился ну шо",
-          "podlodka": "он нахуй где он на сформу бабка в доме подотовился но что"
+          "podlodka": "он нахуй где он на сформу бабка в доме подотовился но что",
+          "gigaam": "газонокосилка в доме? Поготовился. Ну чтоо мне?",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 78130,
           "end_ms": 80240,
           "large_v3": "зукорадники ну шо вы",
-          "podlodka": "зубаратные кино шоу"
+          "podlodka": "зубаратные кино шоу",
+          "gigaam": "мои сука, радные киношоу,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 80160,
           "end_ms": 81540,
           "large_v3": "подготовился",
-          "podlodka": "подотовился"
+          "podlodka": "подотовился",
+          "gigaam": "пацаны. Подготовился.",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 82940,
           "end_ms": 84280,
           "large_v3": "нахуй",
-          "podlodka": "ха ха ха ха"
+          "podlodka": "ха ха ха ха",
+          "gigaam": "вырубитьу",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -658,7 +971,9 @@
           "start_ms": 84540,
           "end_ms": 85850,
           "large_v3": "жлобу",
-          "podlodka": "слову"
+          "podlodka": "слову",
+          "gigaam": "Пан Погоди, мне кзлому",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -671,20 +986,31 @@
           "start_ms": 88200,
           "end_ms": 89290,
           "large_v3": "шо",
-          "podlodka": "что"
-        },
-        {
-          "reason": "asr_disagreement_not_a_proven_error",
-          "start_ms": 89180,
-          "end_ms": 90550,
-          "large_v3": "злой",
-          "podlodka": "свой"
+          "podlodka": "что",
+          "gigaam": "Это что за? Да",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 12,
           "start_ms": 89180,
           "end_ms": 89810
+        },
+        {
+          "reason": "asr_disagreement_not_a_proven_error",
+          "start_ms": 89180,
+          "end_ms": 90550,
+          "large_v3": "злой",
+          "podlodka": "свой",
+          "gigaam": "Да Злой",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 92360,
+          "end_ms": 93199,
+          "large_v3": "Каждое прикосновение",
+          "gigaam": "Орикосновение Орикосновение"
         },
         {
           "reason": "uncertain_speaker",
@@ -697,14 +1023,25 @@
           "start_ms": 93540,
           "end_ms": 93710,
           "large_v3": "",
-          "podlodka": "т"
+          "podlodka": "т",
+          "gigaam": "",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 94690,
           "end_ms": 94850,
           "large_v3": "",
-          "podlodka": "не"
+          "podlodka": "не",
+          "gigaam": "меня дрожать",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 95302,
+          "end_ms": 97509,
+          "large_v3": "Я понял,",
+          "gigaam": "Я понял,"
         },
         {
           "reason": "uncertain_speaker",
@@ -717,20 +1054,31 @@
           "start_ms": 101940,
           "end_ms": 102880,
           "large_v3": "раз раз раз бы",
-          "podlodka": "ассас быструю"
+          "podlodka": "ассас быструю",
+          "gigaam": "тебя",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 103770,
           "end_ms": 104280,
           "large_v3": "не",
-          "podlodka": "нет"
+          "podlodka": "нет",
+          "gigaam": "уверенную, не?",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 18,
           "start_ms": 105670,
           "end_ms": 106420
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 106045,
+          "end_ms": 112180,
+          "large_v3": "думаю, есть одна, но крайняк,",
+          "gigaam": "Я думаю, Чё Чё Ещё есть одна, но крайнях,"
         },
         {
           "reason": "uncertain_speaker",
@@ -743,14 +1091,18 @@
           "start_ms": 114310,
           "end_ms": 115200,
           "large_v3": "массонабор",
-          "podlodka": "москанабор"
+          "podlodka": "москанабор",
+          "gigaam": "масонобор, я",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 117420,
           "end_ms": 119000,
           "large_v3": "сделал а",
-          "podlodka": "отждел я насрано"
+          "podlodka": "отждел я насрано",
+          "gigaam": "сделал. насрано, Вадя,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -763,22 +1115,42 @@
           "start_ms": 126390,
           "end_ms": 127620,
           "large_v3": "погоди",
-          "podlodka": "пацаны"
+          "podlodka": "пацаны",
+          "gigaam": "это? Погоди,",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 129830,
+          "end_ms": 133029,
+          "large_v3": "О,",
+          "gigaam": "Оо, Ка У"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 134960,
           "end_ms": 136720,
           "large_v3": "сгибал",
-          "podlodka": "заебал"
+          "podlodka": "заебал",
+          "gigaam": "б, заебал. Так.",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 24,
           "start_ms": 136080,
           "end_ms": 138960
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 137489,
+          "end_ms": 137809,
+          "large_v3": "",
+          "gigaam": "Бля,"
         }
-      ]
+      ],
+      "third_model": "GigaAM v3 CTC (sherpa-onnx, int8)",
+      "gigaam_items": 11
     },
     {
       "id": "r003",
@@ -795,7 +1167,7 @@
       "primary_model_sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1",
       "secondary_model": "Whisper podlodka turbo q4_0",
       "asr_disagreements": 28,
-      "review_items": 57,
+      "review_items": 76,
       "time_adjustments": [
         {
           "word": 190,
@@ -833,11 +1205,20 @@
       ],
       "review_queue": [
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 5400,
+          "end_ms": 5600,
+          "large_v3": "",
+          "gigaam": "или"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 6400,
           "end_ms": 10400,
           "large_v3": "мы вам планом никаких не ставим",
-          "podlodka": "ну мне нужно"
+          "podlodka": "ну мне нужно",
+          "gigaam": "Ну мне мне нужно.лано. Планов никаких не ставим. А,",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -856,7 +1237,9 @@
           "start_ms": 11120,
           "end_ms": 12810,
           "large_v3": "объезд я вам",
-          "podlodka": "объяснить ну как бы"
+          "podlodka": "объяснить ну как бы",
+          "gigaam": "Это объездредне Средне, ну,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -869,13 +1252,22 @@
           "start_ms": 13610,
           "end_ms": 15000,
           "large_v3": "зарабатывают",
-          "podlodka": "зарабатывать"
+          "podlodka": "зарабатывать",
+          "gigaam": "говорю, как зарабатывают наши",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 8,
           "start_ms": 16060,
           "end_ms": 16360
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 16309,
+          "end_ms": 16509,
+          "large_v3": "",
+          "gigaam": "но"
         },
         {
           "reason": "write_numbers_as_spoken_words",
@@ -888,21 +1280,34 @@
           "start_ms": 20160,
           "end_ms": 21240,
           "large_v3": "от продаж",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "От продаж. Ну",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 23300,
           "end_ms": 25280,
           "large_v3": "произвести",
-          "podlodka": "провести"
+          "podlodka": "провести",
+          "gigaam": "я должен произвести,",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 30020,
           "end_ms": 30330,
           "large_v3": "ну",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Ну,-ээ,",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 33189,
+          "end_ms": 34619,
+          "large_v3": "у нас",
+          "gigaam": "у нас Д Ценовая Д Ценовая"
         },
         {
           "reason": "uncertain_speaker",
@@ -929,6 +1334,13 @@
           "end_ms": 44070
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 43410,
+          "end_ms": 47439,
+          "large_v3": "но тогда сумму, провести продаж.",
+          "gigaam": "ну хорошо, Ну, Ну, тогда сумму, произвести продажи."
+        },
+        {
           "reason": "write_numbers_as_spoken_words",
           "turn": 15,
           "start_ms": 44070,
@@ -939,7 +1351,23 @@
           "start_ms": 55640,
           "end_ms": 56520,
           "large_v3": "единственное",
-          "podlodka": "неизвестно"
+          "podlodka": "неизвестно",
+          "gigaam": "Мне единственное непонятно",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 65836,
+          "end_ms": 66316,
+          "large_v3": "Как",
+          "gigaam": "Как-ка"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 70309,
+          "end_ms": 74451,
+          "large_v3": "В первую меня? я",
+          "gigaam": "Понимаю,учень. Понимаю,учень. Вю очередь, Вю А От От меня,"
         },
         {
           "reason": "uncertain_speaker",
@@ -964,20 +1392,31 @@
           "start_ms": 75060,
           "end_ms": 75270,
           "large_v3": "каком",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "В смысле,",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 75160,
           "end_ms": 75250,
           "large_v3": "",
-          "podlodka": "ну"
+          "podlodka": "ну",
+          "gigaam": "В смысле,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 22,
           "start_ms": 76010,
           "end_ms": 77820
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 76739,
+          "end_ms": 80259,
+          "large_v3": "допустим, ребята и",
+          "gigaam": "Так вот, я же спши Приходят Приходят Приходи Приходи и-и-и"
         },
         {
           "reason": "uncertain_speaker",
@@ -996,27 +1435,61 @@
           "start_ms": 84040,
           "end_ms": 84760,
           "large_v3": "это",
-          "podlodka": "мальчик тут"
+          "podlodka": "мальчик тут",
+          "gigaam": "Вот. такак я за",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 86650,
           "end_ms": 87460,
           "large_v3": "первые месяцы",
-          "podlodka": "первом месяце"
+          "podlodka": "первом месяце",
+          "gigaam": "в первом месяце и 5ть0",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 88980,
+          "end_ms": 89220,
+          "large_v3": "",
+          "gigaam": "Тут"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 96179,
+          "end_ms": 96379,
+          "large_v3": "",
+          "gigaam": "ээ"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 103520,
           "end_ms": 104040,
           "large_v3": "же",
-          "podlodka": "сейчас"
+          "podlodka": "сейчас",
+          "gigaam": "да. Я же спрашиваю,",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 106199,
+          "end_ms": 108209,
+          "large_v3": "нужно Я вам не",
+          "gigaam": "Суммунужно Суммунужно ...скажу,"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 27,
           "start_ms": 106350,
           "end_ms": 107760
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 117450,
+          "end_ms": 119389,
+          "large_v3": "Ну",
+          "gigaam": "Но Сст. Сст."
         },
         {
           "reason": "uncertain_speaker",
@@ -1035,7 +1508,16 @@
           "start_ms": 120320,
           "end_ms": 121260,
           "large_v3": "чуть чуть нервничаете",
-          "podlodka": "нервничайте"
+          "podlodka": "нервничайте",
+          "gigaam": "ч-чуть нервничаете. Я",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 136789,
+          "end_ms": 137589,
+          "large_v3": "я",
+          "gigaam": "Чтобы Чтобы я"
         },
         {
           "reason": "uncertain_speaker",
@@ -1054,28 +1536,36 @@
           "start_ms": 146340,
           "end_ms": 146860,
           "large_v3": "",
-          "podlodka": "процентов"
+          "podlodka": "процентов",
+          "gigaam": "",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 150920,
           "end_ms": 151530,
           "large_v3": "",
-          "podlodka": "процентов"
+          "podlodka": "процентов",
+          "gigaam": "",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 152520,
           "end_ms": 152980,
           "large_v3": "",
-          "podlodka": "процентов"
+          "podlodka": "процентов",
+          "gigaam": "в зависимости",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 155020,
           "end_ms": 155720,
           "large_v3": "",
-          "podlodka": "процента"
+          "podlodka": "процента",
+          "gigaam": "3%.",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -1088,7 +1578,9 @@
           "start_ms": 160700,
           "end_ms": 161800,
           "large_v3": "у нас 5",
-          "podlodka": "15 процентов"
+          "podlodka": "15 процентов",
+          "gigaam": "...процентов, потому что",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "write_numbers_as_spoken_words",
@@ -1101,42 +1593,68 @@
           "start_ms": 167180,
           "end_ms": 168260,
           "large_v3": "",
-          "podlodka": "по это"
+          "podlodka": "по это",
+          "gigaam": "вы это непосредственно",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 173580,
           "end_ms": 175010,
           "large_v3": "",
-          "podlodka": "как"
+          "podlodka": "как",
+          "gigaam": "...как, сколько",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 177460,
           "end_ms": 178800,
           "large_v3": "говорите от 50 если вы",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "говорите от пясяти и",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 181680,
           "end_ms": 182720,
           "large_v3": "рассчитывает",
-          "podlodka": "рассчитывается"
+          "podlodka": "рассчитывается",
+          "gigaam": "всё рассчитывает.",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 188259,
+          "end_ms": 189599,
+          "large_v3": "ценовой",
+          "gigaam": "ну. Поценовой"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 196200,
           "end_ms": 196520,
           "large_v3": "хорошо",
-          "podlodka": "больше"
+          "podlodka": "больше",
+          "gigaam": "у вас хорошо",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 202519,
+          "end_ms": 202719,
+          "large_v3": "же",
+          "gigaam": "ж"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 204960,
           "end_ms": 206110,
           "large_v3": "вы",
-          "podlodka": "ну"
+          "podlodka": "ну",
+          "gigaam": "Вы Вот. Вы",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -1149,20 +1667,31 @@
           "start_ms": 206850,
           "end_ms": 208140,
           "large_v3": "нравится и",
-          "podlodka": "нравятся"
+          "podlodka": "нравятся",
+          "gigaam": "мне всегда нравятся начинающие",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 210820,
           "end_ms": 211450,
           "large_v3": "забегаете",
-          "podlodka": "забегайте"
+          "podlodka": "забегайте",
+          "gigaam": "уже забегаете далеко",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 37,
           "start_ms": 211840,
           "end_ms": 213120
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 211840,
+          "end_ms": 215719,
+          "large_v3": "вперед. что я получать, получать?",
+          "gigaam": "вы через получае, Чрез Чрез два получить.а А как в как в как вы"
         },
         {
           "reason": "uncertain_speaker",
@@ -1181,13 +1710,22 @@
           "start_ms": 217910,
           "end_ms": 218500,
           "large_v3": "6",
-          "podlodka": "шесть"
+          "podlodka": "шесть",
+          "gigaam": "уже 6 Слно лет",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
           "turn": 41,
           "start_ms": 218500,
           "end_ms": 218810
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 220379,
+          "end_ms": 222619,
+          "large_v3": "вы начинающий специалист. сколько...",
+          "gigaam": "вот начинающие специалисты, что? что? ваши, Ваша ваши ваши"
         },
         {
           "reason": "uncertain_speaker",
@@ -1200,9 +1738,34 @@
           "start_ms": 223280,
           "end_ms": 223350,
           "large_v3": "я",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 226999,
+          "end_ms": 227519,
+          "large_v3": "А",
+          "gigaam": "А-а,"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 236570,
+          "end_ms": 237210,
+          "large_v3": "",
+          "gigaam": "Э-э-э,"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 239050,
+          "end_ms": 239490,
+          "large_v3": "все-таки",
+          "gigaam": "всё такие"
         }
-      ]
+      ],
+      "third_model": "GigaAM v3 CTC (sherpa-onnx, int8)",
+      "gigaam_items": 19
     },
     {
       "id": "r004",
@@ -1219,7 +1782,7 @@
       "primary_model_sha256": "d75795ecff3f83b5faa89d1900604ad8c780abd5739fae406de19f23ecd98ad1",
       "secondary_model": "Whisper podlodka turbo q4_0",
       "asr_disagreements": 32,
-      "review_items": 50,
+      "review_items": 66,
       "time_adjustments": [
         {
           "word": 166,
@@ -1367,11 +1930,20 @@
       ],
       "review_queue": [
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 39,
+          "end_ms": 239,
+          "large_v3": "Так",
+          "gigaam": "Эток"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 1270,
           "end_ms": 1810,
           "large_v3": "позвоню он",
-          "podlodka": "позвонил"
+          "podlodka": "позвонил",
+          "gigaam": "я ему позвонил, может, просто",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -1384,21 +1956,34 @@
           "start_ms": 2990,
           "end_ms": 4040,
           "large_v3": "там проверяется",
-          "podlodka": "он проверяет за"
+          "podlodka": "он проверяет за",
+          "gigaam": "Проверяется звонок, то есть если",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 6660,
           "end_ms": 6970,
           "large_v3": "",
-          "podlodka": "там"
+          "podlodka": "там",
+          "gigaam": "там",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 9980,
           "end_ms": 10500,
           "large_v3": "все равно",
-          "podlodka": "что ему"
+          "podlodka": "что ему",
+          "gigaam": "это ж всё равно слышно",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 10939,
+          "end_ms": 14569,
+          "large_v3": "телефоне. Торон, Москва, то",
+          "gigaam": "телефонном Кто Я Я Я С Торон, С Торон,"
         },
         {
           "reason": "uncertain_speaker",
@@ -1423,7 +2008,9 @@
           "start_ms": 15650,
           "end_ms": 16540,
           "large_v3": "везде",
-          "podlodka": "визит"
+          "podlodka": "визит",
+          "gigaam": "это постоянно везде. То",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -1432,11 +2019,20 @@
           "end_ms": 17070
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 16920,
+          "end_ms": 17280,
+          "large_v3": "",
+          "gigaam": "То есть"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 18090,
           "end_ms": 19010,
           "large_v3": "",
-          "podlodka": "с точки зрения как"
+          "podlodka": "с точки зрения как",
+          "gigaam": "ну, с точки зрения, как",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "uncertain_speaker",
@@ -1445,32 +2041,68 @@
           "end_ms": 21620
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 21139,
+          "end_ms": 23429,
+          "large_v3": "IP-телефония,",
+          "gigaam": "IP-телефон Телефония, Телефония, всё,"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 23800,
           "end_ms": 24800,
           "large_v3": "заполнения",
-          "podlodka": "запомнил"
+          "podlodka": "запомнил",
+          "gigaam": "всё в рамках запона. И",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 28470,
+          "end_ms": 28949,
+          "large_v3": "пожалуйста,",
+          "gigaam": "пожалуется,"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 30140,
           "end_ms": 30720,
           "large_v3": "угрожал",
-          "podlodka": "выражал"
+          "podlodka": "выражал",
+          "gigaam": "там угрожал,",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 31749,
+          "end_ms": 32029,
+          "large_v3": "записи",
+          "gigaam": "запись"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 32930,
           "end_ms": 33440,
           "large_v3": "есть но",
-          "podlodka": "весьма"
+          "podlodka": "весьма",
+          "gigaam": "что то естьну",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 35310,
           "end_ms": 35410,
           "large_v3": "",
-          "podlodka": "мы"
+          "podlodka": "мы",
+          "gigaam": "мы",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 38130,
+          "end_ms": 39159,
+          "large_v3": "",
+          "gigaam": "Ивини Ивини Касаемо"
         },
         {
           "reason": "uncertain_speaker",
@@ -1483,7 +2115,9 @@
           "start_ms": 40930,
           "end_ms": 41620,
           "large_v3": "осуществляют",
-          "podlodka": "осуществляю"
+          "podlodka": "осуществляю",
+          "gigaam": "выезды осуществляю Э",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -1496,49 +2130,84 @@
           "start_ms": 44110,
           "end_ms": 45050,
           "large_v3": "торонова",
-          "podlodka": "тороного"
+          "podlodka": "тороного",
+          "gigaam": "нету, Тароно в",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 50310,
           "end_ms": 50360,
           "large_v3": "и",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "так",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 51479,
+          "end_ms": 51679,
+          "large_v3": "Но",
+          "gigaam": "НуН,"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 52890,
           "end_ms": 53100,
           "large_v3": "",
-          "podlodka": "и"
+          "podlodka": "и",
+          "gigaam": "",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 53479,
+          "end_ms": 53920,
+          "large_v3": "их",
+          "gigaam": "ихние"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 55770,
           "end_ms": 56000,
           "large_v3": "",
-          "podlodka": "это"
+          "podlodka": "это",
+          "gigaam": "или видеосъёмкой,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 64100,
           "end_ms": 64620,
           "large_v3": "ну новое",
-          "podlodka": "но"
+          "podlodka": "но",
+          "gigaam": "Ну, новое,",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 67400,
           "end_ms": 68380,
           "large_v3": "представляете",
-          "podlodka": "представляетесь"
+          "podlodka": "представляетесь",
+          "gigaam": "то есть представляетесь, объясняете,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 70530,
           "end_ms": 71560,
           "large_v3": "взыскиваете",
-          "podlodka": "взыскиваетесь"
+          "podlodka": "взыскиваетесь",
+          "gigaam": "долг и взыскиваете с него,",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 73210,
+          "end_ms": 78970,
+          "large_v3": "банк",
+          "gigaam": "Мне банк Тк Когда-то Тк Когда-то А когда? А А когда-то Это. Есть Это. Есть"
         },
         {
           "reason": "uncertain_speaker",
@@ -1563,70 +2232,104 @@
           "start_ms": 81620,
           "end_ms": 82650,
           "large_v3": "регулируем вопрос до",
-          "podlodka": "урегулируем вопросы"
+          "podlodka": "урегулируем вопросы",
+          "gigaam": "мы урегулируем вопрос в досудебном",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 84200,
           "end_ms": 86290,
           "large_v3": "подаем",
-          "podlodka": "подавим"
+          "podlodka": "подавим",
+          "gigaam": "Если клиент не слышит нас, мы подаём",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 85730,
           "end_ms": 85830,
           "large_v3": "",
-          "podlodka": "но"
+          "podlodka": "но",
+          "gigaam": "нас,",
+          "gigaam_side": "podlodka"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 88610,
+          "end_ms": 89129,
+          "large_v3": "с приставом",
+          "gigaam": "к приставам"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 89800,
           "end_ms": 90800,
           "large_v3": "арестовывать",
-          "podlodka": "арестовать"
+          "podlodka": "арестовать",
+          "gigaam": "уже арестовывать имущество,",
+          "gigaam_side": "neither"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 92490,
+          "end_ms": 96069,
+          "large_v3": "взыскать",
+          "gigaam": "взыскивать То есть Мы можем Мы"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 96370,
           "end_ms": 96420,
           "large_v3": "",
-          "podlodka": "в"
+          "podlodka": "в",
+          "gigaam": "выехать",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 97210,
           "end_ms": 97260,
           "large_v3": "",
-          "podlodka": "и"
+          "podlodka": "и",
+          "gigaam": "приказом,",
+          "gigaam_side": "podlodka"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 98540,
           "end_ms": 99580,
           "large_v3": "должен заплатить",
-          "podlodka": "два раза платить"
+          "podlodka": "два раза платить",
+          "gigaam": "долг, ты должен заплатить». Если",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 101070,
           "end_ms": 101520,
           "large_v3": "ты",
-          "podlodka": "и"
+          "podlodka": "и",
+          "gigaam": "ты едешь пристава",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 101380,
           "end_ms": 102390,
           "large_v3": "к приставу",
-          "podlodka": "в приставы"
+          "podlodka": "в приставы",
+          "gigaam": "едешь пристава сажаешь в машину,",
+          "gigaam_side": "neither"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 102810,
           "end_ms": 102870,
           "large_v3": "в",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "привозишь",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -1635,18 +2338,36 @@
           "end_ms": 104940
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 103290,
+          "end_ms": 105150,
+          "large_v3": "приводишь фас.",
+          "gigaam": "есть То есть, То"
+        },
+        {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 108340,
           "end_ms": 108500,
           "large_v3": "да",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "Дда.",
+          "gigaam_side": "large_v3"
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 109389,
+          "end_ms": 120749,
+          "large_v3": "судебке скрипт?",
+          "gigaam": "суде только То есть Ддада. От. У вас скрипт? А-а, А-а, как к,"
         },
         {
           "reason": "asr_disagreement_not_a_proven_error",
           "start_ms": 110060,
           "end_ms": 110110,
           "large_v3": "",
-          "podlodka": "и"
+          "podlodka": "и",
+          "gigaam": "ты",
+          "gigaam_side": "neither"
         },
         {
           "reason": "uncertain_speaker",
@@ -1665,7 +2386,9 @@
           "start_ms": 123500,
           "end_ms": 123500,
           "large_v3": "",
-          "podlodka": "там это типа да"
+          "podlodka": "там это типа да",
+          "gigaam": "",
+          "gigaam_side": "large_v3"
         },
         {
           "reason": "uncertain_speaker",
@@ -1674,10 +2397,24 @@
           "end_ms": 124740
         },
         {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 125229,
+          "end_ms": 126619,
+          "large_v3": "",
+          "gigaam": "тонкость Тонкости там это.. Ну,"
+        },
+        {
           "reason": "uncertain_speaker",
           "turn": 39,
           "start_ms": 125490,
           "end_ms": 126740
+        },
+        {
+          "reason": "gigaam_disagreement_not_a_proven_error",
+          "start_ms": 129310,
+          "end_ms": 130459,
+          "large_v3": "звонить,",
+          "gigaam": "звонить. Ну Ну Ну,"
         },
         {
           "reason": "uncertain_speaker",
@@ -1696,9 +2433,13 @@
           "start_ms": 131040,
           "end_ms": 131620,
           "large_v3": "звонков",
-          "podlodka": ""
+          "podlodka": "",
+          "gigaam": "300",
+          "gigaam_side": "neither"
         }
-      ]
+      ],
+      "third_model": "GigaAM v3 CTC (sherpa-onnx, int8)",
+      "gigaam_items": 16
     }
   ]
 }
